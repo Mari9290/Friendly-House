@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friendly House</title>
+    <link rel="preload" href="fonts/Comfortaa-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/HelveticaNeueCyr-Light.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/HelveticaNeueCyr-Medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <section class="about">
+            <h1 class="about__heading">О приюте</h1>
+
+            <p class="about__par">
+                Приют "Friendly House" - это целый комплекс для бездомных и брошенных животных.
+            </p>
+
+            <p class="about__par">
+                В приюте работает сплочённая команда, которая занимается помощью бездомным животным в течении многих лет. Мы заботимся о качестве жизни наших подопечных и осуществляем профессиональный медицинский уход.
+            </p>
+        </section>
+
+        <section class="help">
+            <h2 class="help__headline">Как ты можешь нам помочь?</h2>
+
+            <ol class="help__list">
+                <li class="help__item">
+                    <h3 class="help__caption">
+                        Финансово
+                    </h3>
+
+                    <p class="help__par">
+                        Мы будем рады любым пожертвованиям. <br>
+                        Деньги пойдут на корм, лечение и уход, а также, на обустройство территории, где обитают наши маленькие питомцы.
+                    </p>
+                </li>
+                <li class="help__item">
+                    <h3 class="help__caption">
+                        Стать волонером
+                    </h3>
+                    <p class="help__par">
+                        Наш приют "Friendly House" привлекает волонтеров для оказания помощи в самых разных форматах! От финансовой помощи и набирающего популярность интеллектуального волонтерства до помощи руками.
+                    </p>
+
+                    <p class="help__par">
+                        Нам всегда нужна помощь с выгулом подопечных, уборкой помещений, привезти в приют корм или медикаменты, помочь с перевозкой животных в клиники, забрать и привезти вещи и много всего другого. Мы всегда рады любой помощи, присоединяйтесь к нашей дружной команде! :&#41;
+                    </p>
+                </li>
+                <li class="help__item">
+                    <h3 class="help__caption">
+                        Стать опекуном
+                    </h3>
+                    <p class="help__par-bold">
+                        Хотите друга, но не можете взять домой? <br>
+                        Проект опеки - идеальное решение!
+                    </p>
+
+                    <p class="help__par">
+                        Взять под опеку животное, у которого еще нет опекуна, - это как завести питомца, о котором всю жизнь мечтал, но не мог себе этого позволить по каким-либо причинам.
+                    </p>
+                </li>
+            </ol>
+        </section>
+    </div>
+
+    <section class="connection">
+        <div class="connection__inner">
+            <h2 class="connection__caption">
+                Ты можешь помочь нам!
+            </h2>
+            <p class="connection__text">
+                Хочешь забрать питомца, стать волонтером, или опекуном?
+            </p>
+            <p class="connection__text-orange">
+                Свяжись с нами!
+            </p>
+
+            <address class="connection__address">
+                <a 
+                    class="address__tel" 
+                    href="tel:+76493003957"
+                >
+                    8 (849) 300 - 39 -57
+                </a>
+                <a 
+                    class="address__mail" 
+                    href="mailto:friendlyhouse@gmail.com"
+                >
+                    FriendlyHouse@gmail.com
+                </a>
+            </address>
+
+            <p class="connection__text">
+                Или оставь свои контакты и мы сами свяжемся с тобой!
+            </p>
+
+            <form class="connection__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+                <label 
+                    class="connection__label-text"  
+                    for="tel"
+                >Номер телефона
+                    <input 
+                        class="connection__input" 
+                        type="tel" 
+                        name="tel" 
+                        id="tel"
+                    >
+                </label>
+                <label 
+                    class="connection__label-text" 
+                    for="mail"
+                >E-mail
+                    <input 
+                        class="connection__input" 
+                        type="email" 
+                        name="mail" 
+                        id="mail"
+                    >
+                </label>
+                <button 
+                    class="connection__btn" 
+                    type="submit"
+                >
+                    Отправить
+                </button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

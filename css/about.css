@@ -1,0 +1,24 @@
+.about__par {
+    margin: 0 0 60px 0;
+    font-size: 20px;
+    line-height: 30px;
+    color: #282626;
+    font-weight: 300;
+    font-family: "HelveticaNeueCyr", sans-serif;
+}
+
+.about__par:last-child {
+    margin: 0;
+}
+
+.about {
+    max-width: 480px;
+    margin-bottom: 204px;
+}
+
+.about__heading {
+    font-family: Comfortaa, sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    margin: 0 0 36px;
+}
