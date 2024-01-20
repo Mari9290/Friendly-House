@@ -1,5 +1,5 @@
 .address__mail {
-    color: #282626;
+    color: var(--color-black, #282626);
     font-family: HelveticaNeueCyr, sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -14,7 +14,7 @@
 }
 
 .address__tel {
-    color: #282626;
+    color: var(--color-black, #282626);
     font-family: HelveticaNeueCyr, sans-serif;
     font-size: 20px;
     font-style: normal;

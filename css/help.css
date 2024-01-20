@@ -3,7 +3,7 @@
     margin: 0 0 134px;
     font-size: 50px;
     line-height: 60px;
-    color: #ff8a00;
+    color: var(--color-orange, #ff8a00);
     font-weight: 400;
     font-family: "Comfortaa", sans-serif;
 }
@@ -46,7 +46,7 @@
     text-align: center;
     font-size: 50px;
     line-height: 50px;
-    color: #ff8a00;
+    color: var(--color-orange, #ff8a00);
     font-weight: 400;
 }
 
@@ -54,7 +54,7 @@
     margin: 0 0 60px 0;
     font-size: 20px;
     line-height: 30px;
-    color: #282626;
+    color: var(--color-black, #282626);
     font-weight: 300;
     font-family: "HelveticaNeueCyr", sans-serif;
 }
@@ -66,7 +66,7 @@
 .help__caption {
     font-family: "HelveticaNeueCyr", sans-serif;
     font-weight: 300;
-    color: #282626;
+    color: var(--color-black, #282626);
     font-size: 30px;
     line-height: 40px;
     margin: 0 0 40px;
@@ -77,7 +77,7 @@
     font-family: "HelveticaNeueCyr", sans-serif;
     font-size: 20px;
     line-height: 30px;
-    color: #282626;
+    color: var(--color-black, #282626);
     font-weight: 500;
     margin: 0 0 30px;
 }
