@@ -1,0 +1,26 @@
+.pets {
+    
+}
+
+.pets__container {
+    
+}
+
+.pets__figcaption {
+    color: var(--color-black, #282626);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+.pets__figure {
+    
+}
+
+.pets__img {
+    margin-bottom: 20px;
+}
+
+.pets__wrapper {
+    
+}
