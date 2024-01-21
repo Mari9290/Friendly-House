@@ -1,0 +1,95 @@
+.projects {
+
+}
+
+.projects__article {
+
+}
+
+.projects__aside {
+
+}
+
+.projects__caption {
+    color: var(--color-black, #282626);
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 26px;
+}
+
+.projects__container {
+
+}
+
+.projects__content {
+    width: 380px;
+    height: 450px;
+    background-image: url(../img/projects/dog-friend.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    position: relative;
+}
+
+.projects__header {
+    color: var(--color-black, #282626);
+    font-size: 30px;
+    font-weight: 550;
+    line-height: 40px;
+}
+
+.projects__headline {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 550;
+    line-height: 40px;
+    white-space: pre-line;
+    display: inline;
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    right: 10px;
+}
+
+.projects__link-bottom {
+    position: absolute;
+    bottom: 40px;
+    right: 10px;
+}
+
+.projects__img {
+
+}
+
+.projects__link {
+    color: var(--color-orange, #FF8A00);
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 26px;
+}
+
+.projects__link::after {
+    content: url(../img/projects/arrow-right.svg);
+    padding-left: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.projects__par {
+    color: var(--color-black, #282626);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.projects__pic {
+
+}
+
+.projects__wrap {
+
+}
+
+.projects__wrapper {
+
+}
